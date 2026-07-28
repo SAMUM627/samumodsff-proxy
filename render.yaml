@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: samumodsff-proxy
+    runtime: node
+    buildCommand: ""
+    startCommand: node index.js
